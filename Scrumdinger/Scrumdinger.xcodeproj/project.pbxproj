@@ -19,6 +19,7 @@
 		377A2E832B08FB0100DE4338 /* ScrumdingerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377A2E822B08FB0100DE4338 /* ScrumdingerUITests.swift */; };
 		377A2E852B08FB0100DE4338 /* ScrumdingerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377A2E842B08FB0100DE4338 /* ScrumdingerUITestsLaunchTests.swift */; };
 		D06173CD2B16844D005FC784 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06173CC2B16844D005FC784 /* Theme.swift */; };
+		D087D0BB2B2248AA00D2F0BF /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D087D0BA2B2248AA00D2F0BF /* DetailEditView.swift */; };
 		D0F796912B17D598008C0057 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F796902B17D598008C0057 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		377A2E822B08FB0100DE4338 /* ScrumdingerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerUITests.swift; sourceTree = "<group>"; };
 		377A2E842B08FB0100DE4338 /* ScrumdingerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D06173CC2B16844D005FC784 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		D087D0BA2B2248AA00D2F0BF /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		D0F796902B17D598008C0057 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,6 +117,7 @@
 				377A2E6B2B08FB0000DE4338 /* Assets.xcassets */,
 				377A2E6D2B08FB0000DE4338 /* Preview Content */,
 				D0F796902B17D598008C0057 /* DetailView.swift */,
+				D087D0BA2B2248AA00D2F0BF /* DetailEditView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 			files = (
 				372CAF6D2B0E68A000B7956B /* DailyScrum.swift in Sources */,
 				D0F796912B17D598008C0057 /* DetailView.swift in Sources */,
+				D087D0BB2B2248AA00D2F0BF /* DetailEditView.swift in Sources */,
 				D06173CD2B16844D005FC784 /* Theme.swift in Sources */,
 				372CAF712B121DF300B7956B /* TrailingIconLabelStyle.swift in Sources */,
 				372CAF732B12283C00B7956B /* ScrumsView.swift in Sources */,
