@@ -30,3 +30,4 @@ class ScrumdingerUITestsLaunchTests: XCTestCase {
         add(attachment)
     }
 }
+
