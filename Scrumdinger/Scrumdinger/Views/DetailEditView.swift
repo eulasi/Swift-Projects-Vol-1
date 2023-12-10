@@ -50,3 +50,4 @@ struct DetailedEditView_Previews: PreviewProvider {
         DetailEditView(scrum: .constant(DailyScrum.sampleData[0]))
     }
 }
+
