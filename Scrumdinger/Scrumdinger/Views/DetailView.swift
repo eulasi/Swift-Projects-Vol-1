@@ -1,9 +1,13 @@
+/*
+ See LICENSE folder for this sample’s licensing information.
+ */
+
 import SwiftUI
 
 struct DetailView: View {
     @Binding var scrum: DailyScrum
-    
     @State private var editingScrum = DailyScrum.emptyScrum
+
     @State private var isPresentingEditView = false
     
     var body: some View {
@@ -14,14 +18,14 @@ struct DetailView: View {
                         .font(.headline)
                         .foregroundColor(.accentColor)
                 }
-                HStack{
+                HStack {
                     Label("Length", systemImage: "clock")
                     Spacer()
                     Text("\(scrum.lengthInMinutes) minutes")
                 }
                 .accessibilityElement(children: .combine)
                 HStack {
-                    Label("Theme", systemImage: "paintpallete")
+                    Label("Theme", systemImage: "paintpalette")
                     Spacer()
                     Text(scrum.theme.name)
                         .padding(4)
@@ -66,7 +70,7 @@ struct DetailView: View {
     }
 }
 
-struct DailyView_Previews: PreviewProvider {
+struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationStack {
             DetailView(scrum: .constant(DailyScrum.sampleData[0]))

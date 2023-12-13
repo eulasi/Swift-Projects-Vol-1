@@ -1,3 +1,7 @@
+/*
+ See LICENSE folder for this sample’s licensing information.
+ */
+
 import SwiftUI
 import AVFoundation
 
@@ -15,10 +19,9 @@ struct MeetingView: View {
                 MeetingHeaderView(secondsElapsed: scrumTimer.secondsElapsed, secondsRemaining: scrumTimer.secondsRemaining, theme: scrum.theme)
                 Circle()
                     .strokeBorder(lineWidth: 24)
-                MeetingFooterView(speakers:scrumTimer.speakers, skipAction: scrumTimer.skipSpeaker)
+                MeetingFooterView(speakers: scrumTimer.speakers, skipAction: scrumTimer.skipSpeaker)
             }
         }
-                
         .padding()
         .foregroundColor(scrum.theme.accentColor)
         .onAppear {

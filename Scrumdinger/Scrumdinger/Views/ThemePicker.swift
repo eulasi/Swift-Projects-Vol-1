@@ -1,3 +1,7 @@
+/*
+ See LICENSE folder for this sample’s licensing information.
+ */
+
 import SwiftUI
 
 struct ThemePicker: View {
@@ -16,6 +20,6 @@ struct ThemePicker: View {
 
 struct ThemePicker_Previews: PreviewProvider {
     static var previews: some View {
-        ThemePicker(selection:  .constant(.periwinkle))
+        ThemePicker(selection: .constant(.periwinkle))
     }
 }
